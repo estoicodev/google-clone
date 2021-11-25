@@ -21,20 +21,6 @@ html {
   --a-lang: #8ab4f8;
   --general-font-size: 1.4rem;
   --general-font-family: arial, sans-serif;
-  /* --general-color: #5f6368;
-  --color-header: #ffffff;
-  --bg-general: #ffffff;
-  --bg-footer: #f2f2f2;
-  --border-general: #dfe1e5;
-  --border-footer: #dfe1e5;
-  --menu-icon-color: rgba(255, 255, 255, 0.08);
-  --search-icon-color: #9aa0a6;
-  --input-color: #e8eaed;
-  --a-header: #252525;
-  --a-author: #000;
-  --a-lang: #245fbe;
-  --general-font-size: 1.4rem;
-  --general-font-family: arial, sans-serif; */
 }
 body,
 input {
