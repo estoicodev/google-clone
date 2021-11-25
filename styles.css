@@ -11,8 +11,8 @@ html {
   --color-header: #ffffff;
   --bg-general: #ffffff;
   --bg-footer: #f2f2f2;
-  --bg-search-hover: rgba(255, 255, 255, 0.08);
   --border-general: #dfe1e5;
+  --menu-icon-color: rgba(0, 0, 0, 0.7);
   --search-icon-color: #9aa0a6;
   --a-header: #252525;
   --a-author: #000;
@@ -62,7 +62,7 @@ input {
   width: 24px;
   height: 24px;
   margin-top: 3px;
-  color: var(--general-color);
+  color: var(--menu-icon-color);
   fill: currentColor;
 }
 
@@ -246,7 +246,7 @@ input[type="submit"] {
 }
 
 .searcher:hover {
-  background-color: var(--bg-search-hover);
+  background-color: rgba(255, 255, 255, 0.08);
   border-color: transparent;
   -webkit-box-shadow: 0px 1px 20px 3px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 1px 20px 3px rgba(0, 0, 0, 0.1);
