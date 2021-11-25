@@ -96,6 +96,11 @@ input {
   align-items: center;
 }
 
+.logo-google {
+  width: 272px;
+  height: 92px;
+}
+
 .ctn-searcher {
   width: 94%;
   min-width: 360px;
