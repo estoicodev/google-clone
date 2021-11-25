@@ -7,12 +7,31 @@ html {
   margin: 0;
 }
 :root {
-  --general-font-size: 1.4rem;
-  --general-font-family: arial, sans-serif;
   --general-color: #bdc1c6;
-  --color-header: #ffffff;
+  --color-header: #fff;
   --bg-general: #202124;
   --bg-footer: #171717;
+  --border-general: #5f6368;
+  --menu-icon-color: rgba(255, 255, 255, 0.87);
+  --search-icon-color: #9aa0a6;
+  --input-color: #e8eaed;
+  --a-header: #fff;
+  --a-author: #fff;
+  --a-lang: #8ab4f8;
+  --general-font-size: 1.4rem;
+  --general-font-family: arial, sans-serif;
+  /* --general-color: #5f6368;
+  --color-header: #ffffff;
+  --bg-general: #ffffff;
+  --bg-footer: #f2f2f2;
+  --bg-search-hover: rgba(255, 255, 255, 0.08);
+  --border-general: #dfe1e5;
+  --search-icon-color: #9aa0a6;
+  --a-header: #252525;
+  --a-author: #000;
+  --a-lang: #245fbe;
+  --general-font-size: 1.4rem;
+  --general-font-family: arial, sans-serif; */
 }
 body,
 input {
@@ -47,7 +66,7 @@ input {
 }
 
 .header ul li a {
-  color: var(--color-header);
+  color: var(--a-header);
 }
 .header .ctn-menu-icon {
   padding-left: 20px;
@@ -56,7 +75,7 @@ input {
   width: 24px;
   height: 24px;
   margin-top: 3px;
-  color: rgba(255, 255, 255, 0.87);
+  color: var(--menu-icon-color);
   fill: currentColor;
 }
 
@@ -105,7 +124,7 @@ input {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: 1px solid #5f6368;
+  border: 1px solid var(--border-general);
   border-radius: 24px;
 }
 .searcher input {
@@ -113,7 +132,7 @@ input {
   min-width: 240px;
   max-width: 470px;
   height: 45px;
-  color: #e8eaed;
+  color: var(--input-color);
   background-color: transparent;
   border: none;
   outline: none;
@@ -121,6 +140,7 @@ input {
 
 .ctn-search-icon {
   margin: 5px 0 0 14px;
+  color: var(--search-icon-color);
   fill: currentColor;
 }
 .search-icon {
@@ -147,7 +167,7 @@ input[type="submit"] {
   height: 36px;
   margin: 6px;
   padding: 0 16px;
-  color: #e8eaed;
+  color: var(--input-color);
   background-color: rgba(255, 255, 255, 0.08);
   border: 1px solid transparent;
   border-radius: 5px;
@@ -157,11 +177,11 @@ input[type="submit"] {
   padding-top: 20px;
 }
 .ctn-author .author {
-  color: #ffffff;
+  color: var(--a-author);
 }
 .ctn-author .lang {
   padding: 0 3px;
-  color: #8ab4f8;
+  color: var(--a-lang);
 }
 
 .footer {
@@ -242,7 +262,7 @@ input[type="submit"] {
   box-shadow: 0px 1px 20px 3px rgba(0, 0, 0, 0.1);
 }
 input[type="submit"]:hover {
-  border-color: #5f6368;
+  border-color: var(--border-general);
   cursor: pointer;
 }
 
