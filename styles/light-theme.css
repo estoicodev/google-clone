@@ -8,12 +8,14 @@ html {
 }
 :root {
   --general-color: #5f6368;
-  --color-header: #ffffff;
-  --bg-general: #ffffff;
+  --color-header: #fff;
+  --bg-general: #fff;
   --bg-footer: #f2f2f2;
   --border-general: #dfe1e5;
+  --border-footer: #dfe1e5;
   --menu-icon-color: rgba(0, 0, 0, 0.7);
   --search-icon-color: #9aa0a6;
+  --input-color: #5f6368;
   --a-header: #252525;
   --a-author: #000;
   --a-lang: #245fbe;
@@ -158,7 +160,7 @@ input[type="submit"] {
   height: 36px;
   margin: 6px;
   padding: 0 16px;
-  color: var(--general-color);
+  color: var(--input-color);
   background-color: var(--bg-footer);
   border: 1px solid transparent;
   border-radius: 5px;
@@ -182,7 +184,7 @@ input[type="submit"] {
 
 .ctn-country {
   padding: 15px 30px;
-  border-bottom: 1px solid var(--border-general);
+  border-bottom: 1px solid var(--border-footer);
 }
 .ctn-aditionalinfo {
   display: -webkit-box;
