@@ -37,7 +37,7 @@ input {
   color: var(--color-header);
 }
 
-#theme {
+.theme {
   background-color: var(--bg-input);
   color: var(--input-color);
   border: 1.5px solid transparent;
@@ -46,7 +46,7 @@ input {
   font-size: 1.35rem;
   font-weight: bolder;
 }
-#theme:hover {
+.theme:hover {
   cursor: pointer;
   border-color: var(--border-general);
 }
