@@ -42,7 +42,9 @@ input {
   color: var(--input-color);
   border: 1.5px solid transparent;
   border-radius: 5px;
-  padding: 5px 10px;
+  padding: 6px 12px;
+  font-size: 1.35rem;
+  font-weight: bolder;
 }
 #theme:hover {
   cursor: pointer;
@@ -304,6 +306,11 @@ a:hover {
 }
 
 @media (min-width: 530px) {
+  #theme {
+    padding: 10px 16px;
+    font-size: 1.35rem;
+    font-weight: bolder;
+  }
   .footer {
     min-height: 16vh;
   }
