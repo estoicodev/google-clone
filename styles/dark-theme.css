@@ -306,7 +306,7 @@ a:hover {
 }
 
 @media (min-width: 530px) {
-  #theme {
+  .theme {
     padding: 10px 22px;
     font-size: 1.4rem;
     font-weight: bolder;
